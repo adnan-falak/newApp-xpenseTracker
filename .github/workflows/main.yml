@@ -39,4 +39,4 @@ jobs:
      
     # Deploy Surge
     - name: Run Surge
-      run: surge /build falak-expense-tracker-app.surge.sh  --token ${{secrets.MY_SURGE_TOKEN}}
+      run: surge ./build falak-expense-tracker-app.surge.sh  --token ${{secrets.MY_SURGE_TOKEN}}
